@@ -1,0 +1,51 @@
+<!doctype html>
+<meta charset="utf-8"><title>G-buffer dump</title>
+<body style="background:#000;color:#9f9;font:13px monospace"><pre id="log">starting</pre>
+<script type="module">
+// Runs the page's own rasterizer over poses.json and saves it for training.
+// One file per frame: gA (4 bytes), gB (8 bytes), gC.xy (4 bytes) a pixel. gC.zw are recomputed in train.py.
+import { GBuffer, loadAsset } from '../src/gbuffer.js';
+const q = new URLSearchParams(location.search);
+const start = +(q.get('start') || 0), end = +(q.get('end') || 200);
+const W = 1280, H = 800;
+const log = (s) => { document.getElementById('log').textContent = s; window.__status = s; };
+try {
+  const adapter = await navigator.gpu.requestAdapter();
+  const device = await adapter.requestDevice();
+  device.addEventListener('uncapturederror', (e) => { console.error(e.error.message); log('GPU ERROR ' + e.error.message); });
+  const gb = new GBuffer(device, await loadAsset(device, '../assets/'));
+  gb.resize(W, H);
+  const poses = await (await fetch(q.get('poses') || 'out/poses.json')).json();
+  const parts = [['gA', 4], ['gB', 8], ['gC', 8]];
+  const stride = (b) => (b * W + 255) & ~255;
+  const total = parts.reduce((s, [, b]) => s + stride(b) * H, 0);
+  const read = device.createBuffer({ size: total, usage: GPUBufferUsage.COPY_DST | GPUBufferUsage.MAP_READ });
+  const body = new Uint8Array(16 * W * H);
+  for (let i = start; i < Math.min(end, poses.length); i++) {
+    const enc = device.createCommandEncoder();
+    gb.prev = null;
+    gb.encode(enc, poses[i]);
+    let off = 0;
+    for (const [k, b] of parts) {
+      enc.copyTextureToBuffer({ texture: gb.tex[k] }, { buffer: read, offset: off, bytesPerRow: stride(b), rowsPerImage: H }, [W, H]);
+      off += stride(b) * H;
+    }
+    device.queue.submit([enc.finish()]);
+    await read.mapAsync(GPUMapMode.READ);
+    const src = new Uint8Array(read.getMappedRange());
+    off = 0; let at = 0;
+    for (const [k, b] of parts) {
+      const keep = k === 'gC' ? 4 : b;  // gC: half floats u, v only
+      for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) {
+        const s = off + y * stride(b) + x * b;
+        for (let c = 0; c < keep; c++) body[at + (y * W + x) * keep + c] = src[s + c];
+      }
+      at += keep * W * H; off += stride(b) * H;
+    }
+    read.unmap();
+    await fetch(`/dump/${String(i).padStart(4, '0')}.bin`, { method: 'POST', body });
+    log(`frame ${i} of ${end}`);
+  }
+  log('DONE');
+} catch (e) { log('ERROR ' + e.message); console.error(e); }
+</script>

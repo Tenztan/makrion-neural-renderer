@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Makrion, a neural portrait</title>
+<meta name="description" content="A shark-man rendered offline in Blender Cycles, then repainted live in the browser by a tiny neural network running in WebGPU.">
+<link rel="stylesheet" href="./style.css">
+<link rel="preload" href="./vendor/fonts/fraunces-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+<body>
+<main id="stage">
+  <h1 id="wordmark" aria-label="Makrion"><span>M</span><span>A</span><span>K</span><span>R</span><span>I</span><span>O</span><span>N</span></h1>
+  <canvas id="gpu" aria-label="Live neural render of a shark-man who follows your cursor"></canvas>
+  <p id="caption">Painted live by a small neural network. <span class="mono">Not a video. Move your cursor.</span></p>
+  <p id="stat" class="mono" aria-hidden="true"></p>
+  <div id="loader" aria-live="polite">
+    <p class="mono"><span id="load-label">Loading the model</span> <span id="load-pct">0</span></p>
+    <div class="line"><i id="load-line"></i></div>
+  </div>
+  <div id="nogpu" hidden>
+    <img src="./assets/poster.webp" alt="Cycles render of Makrion">
+    <p>This page paints Makrion live with WebGPU, which this browser does not offer. This is one frame of the offline render it learnt from. Try a recent Chrome or Edge on a desktop.</p>
+  </div>
+</main>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>

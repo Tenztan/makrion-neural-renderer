@@ -1,0 +1,14 @@
+# Original character model: not distributed (belongs to its creator)
+shark/
+
+# Training data and checkpoints: download from the GitHub release instead
+pipeline/out/frames/
+pipeline/out/gbuf/
+pipeline/out/*.pt
+pipeline/out/chrome-profile/
+
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db

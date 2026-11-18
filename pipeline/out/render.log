@@ -1,0 +1,407 @@
+pipeline\render.py:101: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  s.world.use_nodes = True
+00:00.906  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:06.547  render           | Saved: 'pipeline\out\frames\0000.png'
+FBX version: 7700
+@@ frame 0 5.6s
+00:12.015  render           | Saved: 'pipeline\out\frames\0001.png'
+@@ frame 1 5.5s
+00:17.797  render           | Saved: 'pipeline\out\frames\0002.png'
+@@ frame 2 5.8s
+00:23.531  render           | Saved: 'pipeline\out\frames\0003.png'
+@@ frame 3 5.7s
+00:28.890  render           | Saved: 'pipeline\out\frames\0004.png'
+@@ frame 4 5.4s
+00:34.281  render           | Saved: 'pipeline\out\frames\0005.png'
+@@ frame 5 5.4s
+00:39.703  render           | Saved: 'pipeline\out\frames\0006.png'
+@@ frame 6 5.4s
+00:45.078  render           | Saved: 'pipeline\out\frames\0007.png'
+@@ frame 7 5.4s
+00:50.437  render           | Saved: 'pipeline\out\frames\0008.png'
+@@ frame 8 5.4s
+00:55.844  render           | Saved: 'pipeline\out\frames\0009.png'
+@@ frame 9 5.4s
+01:01.937  render           | Saved: 'pipeline\out\frames\0010.png'
+@@ frame 10 6.1s
+01:07.859  render           | Saved: 'pipeline\out\frames\0011.png'
+@@ frame 11 5.9s
+01:13.625  render           | Saved: 'pipeline\out\frames\0012.png'
+@@ frame 12 5.8s
+01:19.422  render           | Saved: 'pipeline\out\frames\0013.png'
+@@ frame 13 5.8s
+01:25.109  render           | Saved: 'pipeline\out\frames\0014.png'
+@@ frame 14 5.7s
+01:30.890  render           | Saved: 'pipeline\out\frames\0015.png'
+@@ frame 15 5.8s
+01:36.609  render           | Saved: 'pipeline\out\frames\0016.png'
+@@ frame 16 5.7s
+01:42.640  render           | Saved: 'pipeline\out\frames\0017.png'
+@@ frame 17 6.0s
+01:48.640  render           | Saved: 'pipeline\out\frames\0018.png'
+@@ frame 18 6.0s
+01:54.187  render           | Saved: 'pipeline\out\frames\0019.png'
+@@ frame 19 5.6s
+01:59.562  render           | Saved: 'pipeline\out\frames\0020.png'
+@@ frame 20 5.4s
+02:05.015  render           | Saved: 'pipeline\out\frames\0021.png'
+@@ frame 21 5.5s
+02:10.687  render           | Saved: 'pipeline\out\frames\0022.png'
+@@ frame 22 5.7s
+02:16.250  render           | Saved: 'pipeline\out\frames\0023.png'
+@@ frame 23 5.6s
+02:21.984  render           | Saved: 'pipeline\out\frames\0024.png'
+@@ frame 24 5.7s
+02:27.984  render           | Saved: 'pipeline\out\frames\0025.png'
+@@ frame 25 6.0s
+02:34.109  render           | Saved: 'pipeline\out\frames\0026.png'
+@@ frame 26 6.1s
+02:40.109  render           | Saved: 'pipeline\out\frames\0027.png'
+@@ frame 27 6.0s
+02:46.140  render           | Saved: 'pipeline\out\frames\0028.png'
+@@ frame 28 6.0s
+02:52.219  render           | Saved: 'pipeline\out\frames\0029.png'
+@@ frame 29 6.1s
+02:58.125  render           | Saved: 'pipeline\out\frames\0030.png'
+@@ frame 30 5.9s
+03:04.234  render           | Saved: 'pipeline\out\frames\0031.png'
+@@ frame 31 6.1s
+03:10.156  render           | Saved: 'pipeline\out\frames\0032.png'
+@@ frame 32 5.9s
+03:16.015  render           | Saved: 'pipeline\out\frames\0033.png'
+@@ frame 33 5.9s
+03:21.906  render           | Saved: 'pipeline\out\frames\0034.png'
+@@ frame 34 5.9s
+03:27.890  render           | Saved: 'pipeline\out\frames\0035.png'
+@@ frame 35 6.0s
+03:33.828  render           | Saved: 'pipeline\out\frames\0036.png'
+@@ frame 36 5.9s
+03:39.765  render           | Saved: 'pipeline\out\frames\0037.png'
+@@ frame 37 5.9s
+03:45.890  render           | Saved: 'pipeline\out\frames\0038.png'
+@@ frame 38 6.1s
+03:51.469  render           | Saved: 'pipeline\out\frames\0039.png'
+@@ frame 39 5.6s
+03:56.844  render           | Saved: 'pipeline\out\frames\0040.png'
+@@ frame 40 5.4s
+04:02.156  render           | Saved: 'pipeline\out\frames\0041.png'
+@@ frame 41 5.3s
+04:07.625  render           | Saved: 'pipeline\out\frames\0042.png'
+@@ frame 42 5.5s
+04:13.469  render           | Saved: 'pipeline\out\frames\0043.png'
+@@ frame 43 5.8s
+04:20.469  render           | Saved: 'pipeline\out\frames\0044.png'
+@@ frame 44 7.0s
+04:27.234  render           | Saved: 'pipeline\out\frames\0045.png'
+@@ frame 45 6.8s
+04:33.547  render           | Saved: 'pipeline\out\frames\0046.png'
+@@ frame 46 6.3s
+04:40.359  render           | Saved: 'pipeline\out\frames\0047.png'
+@@ frame 47 6.8s
+04:46.703  render           | Saved: 'pipeline\out\frames\0048.png'
+@@ frame 48 6.4s
+04:53.281  render           | Saved: 'pipeline\out\frames\0049.png'
+@@ frame 49 6.6s
+05:00.078  render           | Saved: 'pipeline\out\frames\0050.png'
+@@ frame 50 6.8s
+05:06.219  render           | Saved: 'pipeline\out\frames\0051.png'
+@@ frame 51 6.1s
+05:12.187  render           | Saved: 'pipeline\out\frames\0052.png'
+@@ frame 52 6.0s
+05:18.203  render           | Saved: 'pipeline\out\frames\0053.png'
+@@ frame 53 6.0s
+05:24.156  render           | Saved: 'pipeline\out\frames\0054.png'
+@@ frame 54 5.9s
+05:29.969  render           | Saved: 'pipeline\out\frames\0055.png'
+@@ frame 55 5.8s
+05:35.797  render           | Saved: 'pipeline\out\frames\0056.png'
+@@ frame 56 5.8s
+05:41.578  render           | Saved: 'pipeline\out\frames\0057.png'
+@@ frame 57 5.8s
+05:47.187  render           | Saved: 'pipeline\out\frames\0058.png'
+@@ frame 58 5.6s
+05:52.922  render           | Saved: 'pipeline\out\frames\0059.png'
+@@ frame 59 5.7s
+05:58.562  render           | Saved: 'pipeline\out\frames\0060.png'
+@@ frame 60 5.6s
+06:04.109  render           | Saved: 'pipeline\out\frames\0061.png'
+@@ frame 61 5.6s
+06:09.594  render           | Saved: 'pipeline\out\frames\0062.png'
+@@ frame 62 5.5s
+06:14.937  render           | Saved: 'pipeline\out\frames\0063.png'
+@@ frame 63 5.3s
+06:20.469  render           | Saved: 'pipeline\out\frames\0064.png'
+@@ frame 64 5.5s
+06:26.015  render           | Saved: 'pipeline\out\frames\0065.png'
+@@ frame 65 5.6s
+06:31.422  render           | Saved: 'pipeline\out\frames\0066.png'
+@@ frame 66 5.4s
+06:36.953  render           | Saved: 'pipeline\out\frames\0067.png'
+@@ frame 67 5.5s
+06:42.344  render           | Saved: 'pipeline\out\frames\0068.png'
+@@ frame 68 5.4s
+06:47.703  render           | Saved: 'pipeline\out\frames\0069.png'
+@@ frame 69 5.4s
+06:53.140  render           | Saved: 'pipeline\out\frames\0070.png'
+@@ frame 70 5.4s
+06:58.515  render           | Saved: 'pipeline\out\frames\0071.png'
+@@ frame 71 5.4s
+07:03.875  render           | Saved: 'pipeline\out\frames\0072.png'
+@@ frame 72 5.4s
+07:09.234  render           | Saved: 'pipeline\out\frames\0073.png'
+@@ frame 73 5.4s
+07:14.656  render           | Saved: 'pipeline\out\frames\0074.png'
+@@ frame 74 5.4s
+07:20.203  render           | Saved: 'pipeline\out\frames\0075.png'
+@@ frame 75 5.6s
+07:25.531  render           | Saved: 'pipeline\out\frames\0076.png'
+@@ frame 76 5.3s
+07:30.859  render           | Saved: 'pipeline\out\frames\0077.png'
+@@ frame 77 5.3s
+07:36.390  render           | Saved: 'pipeline\out\frames\0078.png'
+@@ frame 78 5.5s
+07:41.890  render           | Saved: 'pipeline\out\frames\0079.png'
+@@ frame 79 5.5s
+07:47.234  render           | Saved: 'pipeline\out\frames\0080.png'
+@@ frame 80 5.3s
+07:52.625  render           | Saved: 'pipeline\out\frames\0081.png'
+@@ frame 81 5.4s
+07:58.047  render           | Saved: 'pipeline\out\frames\0082.png'
+@@ frame 82 5.4s
+08:03.390  render           | Saved: 'pipeline\out\frames\0083.png'
+@@ frame 83 5.3s
+08:08.812  render           | Saved: 'pipeline\out\frames\0084.png'
+@@ frame 84 5.4s
+08:14.219  render           | Saved: 'pipeline\out\frames\0085.png'
+@@ frame 85 5.4s
+08:19.672  render           | Saved: 'pipeline\out\frames\0086.png'
+@@ frame 86 5.5s
+08:25.265  render           | Saved: 'pipeline\out\frames\0087.png'
+@@ frame 87 5.6s
+08:30.719  render           | Saved: 'pipeline\out\frames\0088.png'
+@@ frame 88 5.4s
+08:36.359  render           | Saved: 'pipeline\out\frames\0089.png'
+@@ frame 89 5.6s
+08:42.062  render           | Saved: 'pipeline\out\frames\0090.png'
+@@ frame 90 5.7s
+08:47.781  render           | Saved: 'pipeline\out\frames\0091.png'
+@@ frame 91 5.7s
+08:53.594  render           | Saved: 'pipeline\out\frames\0092.png'
+@@ frame 92 5.8s
+08:59.344  render           | Saved: 'pipeline\out\frames\0093.png'
+@@ frame 93 5.7s
+09:05.219  render           | Saved: 'pipeline\out\frames\0094.png'
+@@ frame 94 5.9s
+09:11.219  render           | Saved: 'pipeline\out\frames\0095.png'
+@@ frame 95 6.0s
+09:16.609  render           | Saved: 'pipeline\out\frames\0096.png'
+@@ frame 96 5.4s
+09:21.906  render           | Saved: 'pipeline\out\frames\0097.png'
+@@ frame 97 5.3s
+09:27.500  render           | Saved: 'pipeline\out\frames\0098.png'
+@@ frame 98 5.6s
+09:32.922  render           | Saved: 'pipeline\out\frames\0099.png'
+@@ frame 99 5.4s
+09:38.297  render           | Saved: 'pipeline\out\frames\0100.png'
+@@ frame 100 5.4s
+09:43.625  render           | Saved: 'pipeline\out\frames\0101.png'
+@@ frame 101 5.3s
+09:48.953  render           | Saved: 'pipeline\out\frames\0102.png'
+@@ frame 102 5.3s
+09:54.250  render           | Saved: 'pipeline\out\frames\0103.png'
+@@ frame 103 5.3s
+09:59.469  render           | Saved: 'pipeline\out\frames\0104.png'
+@@ frame 104 5.2s
+10:05.250  render           | Saved: 'pipeline\out\frames\0105.png'
+@@ frame 105 5.8s
+10:11.219  render           | Saved: 'pipeline\out\frames\0106.png'
+@@ frame 106 6.0s
+10:16.859  render           | Saved: 'pipeline\out\frames\0107.png'
+@@ frame 107 5.6s
+10:22.703  render           | Saved: 'pipeline\out\frames\0108.png'
+@@ frame 108 5.8s
+10:28.328  render           | Saved: 'pipeline\out\frames\0109.png'
+@@ frame 109 5.6s
+10:33.703  render           | Saved: 'pipeline\out\frames\0110.png'
+@@ frame 110 5.4s
+10:39.250  render           | Saved: 'pipeline\out\frames\0111.png'
+@@ frame 111 5.6s
+10:44.750  render           | Saved: 'pipeline\out\frames\0112.png'
+@@ frame 112 5.5s
+10:50.281  render           | Saved: 'pipeline\out\frames\0113.png'
+@@ frame 113 5.5s
+10:55.734  render           | Saved: 'pipeline\out\frames\0114.png'
+@@ frame 114 5.5s
+11:01.140  render           | Saved: 'pipeline\out\frames\0115.png'
+@@ frame 115 5.4s
+11:06.719  render           | Saved: 'pipeline\out\frames\0116.png'
+@@ frame 116 5.6s
+11:12.172  render           | Saved: 'pipeline\out\frames\0117.png'
+@@ frame 117 5.5s
+11:17.578  render           | Saved: 'pipeline\out\frames\0118.png'
+@@ frame 118 5.4s
+11:23.219  render           | Saved: 'pipeline\out\frames\0119.png'
+@@ frame 119 5.6s
+11:29.015  render           | Saved: 'pipeline\out\frames\0120.png'
+@@ frame 120 5.8s
+11:34.890  render           | Saved: 'pipeline\out\frames\0121.png'
+@@ frame 121 5.9s
+11:40.390  render           | Saved: 'pipeline\out\frames\0122.png'
+@@ frame 122 5.5s
+11:45.844  render           | Saved: 'pipeline\out\frames\0123.png'
+@@ frame 123 5.5s
+11:51.437  render           | Saved: 'pipeline\out\frames\0124.png'
+@@ frame 124 5.6s
+11:57.031  render           | Saved: 'pipeline\out\frames\0125.png'
+@@ frame 125 5.6s
+12:02.953  render           | Saved: 'pipeline\out\frames\0126.png'
+@@ frame 126 5.9s
+12:08.797  render           | Saved: 'pipeline\out\frames\0127.png'
+@@ frame 127 5.8s
+12:14.531  render           | Saved: 'pipeline\out\frames\0128.png'
+@@ frame 128 5.7s
+12:20.344  render           | Saved: 'pipeline\out\frames\0129.png'
+@@ frame 129 5.8s
+12:26.094  render           | Saved: 'pipeline\out\frames\0130.png'
+@@ frame 130 5.8s
+12:31.969  render           | Saved: 'pipeline\out\frames\0131.png'
+@@ frame 131 5.9s
+12:37.750  render           | Saved: 'pipeline\out\frames\0132.png'
+@@ frame 132 5.8s
+12:43.625  render           | Saved: 'pipeline\out\frames\0133.png'
+@@ frame 133 5.9s
+12:49.390  render           | Saved: 'pipeline\out\frames\0134.png'
+@@ frame 134 5.8s
+12:55.281  render           | Saved: 'pipeline\out\frames\0135.png'
+@@ frame 135 5.9s
+13:00.875  render           | Saved: 'pipeline\out\frames\0136.png'
+@@ frame 136 5.6s
+13:06.390  render           | Saved: 'pipeline\out\frames\0137.png'
+@@ frame 137 5.5s
+13:12.250  render           | Saved: 'pipeline\out\frames\0138.png'
+@@ frame 138 5.9s
+13:18.047  render           | Saved: 'pipeline\out\frames\0139.png'
+@@ frame 139 5.8s
+13:23.984  render           | Saved: 'pipeline\out\frames\0140.png'
+@@ frame 140 5.9s
+13:29.906  render           | Saved: 'pipeline\out\frames\0141.png'
+@@ frame 141 5.9s
+13:35.719  render           | Saved: 'pipeline\out\frames\0142.png'
+@@ frame 142 5.8s
+13:41.609  render           | Saved: 'pipeline\out\frames\0143.png'
+@@ frame 143 5.9s
+13:47.406  render           | Saved: 'pipeline\out\frames\0144.png'
+@@ frame 144 5.8s
+13:53.422  render           | Saved: 'pipeline\out\frames\0145.png'
+@@ frame 145 6.0s
+13:59.172  render           | Saved: 'pipeline\out\frames\0146.png'
+@@ frame 146 5.7s
+14:04.937  render           | Saved: 'pipeline\out\frames\0147.png'
+@@ frame 147 5.8s
+14:10.734  render           | Saved: 'pipeline\out\frames\0148.png'
+@@ frame 148 5.8s
+14:16.234  render           | Saved: 'pipeline\out\frames\0149.png'
+@@ frame 149 5.5s
+14:21.953  render           | Saved: 'pipeline\out\frames\0150.png'
+@@ frame 150 5.7s
+14:27.547  render           | Saved: 'pipeline\out\frames\0151.png'
+@@ frame 151 5.6s
+14:32.969  render           | Saved: 'pipeline\out\frames\0152.png'
+@@ frame 152 5.4s
+14:38.703  render           | Saved: 'pipeline\out\frames\0153.png'
+@@ frame 153 5.7s
+14:44.344  render           | Saved: 'pipeline\out\frames\0154.png'
+@@ frame 154 5.6s
+14:49.937  render           | Saved: 'pipeline\out\frames\0155.png'
+@@ frame 155 5.6s
+14:55.437  render           | Saved: 'pipeline\out\frames\0156.png'
+@@ frame 156 5.5s
+15:00.812  render           | Saved: 'pipeline\out\frames\0157.png'
+@@ frame 157 5.4s
+15:06.250  render           | Saved: 'pipeline\out\frames\0158.png'
+@@ frame 158 5.4s
+15:11.656  render           | Saved: 'pipeline\out\frames\0159.png'
+@@ frame 159 5.4s
+15:17.281  render           | Saved: 'pipeline\out\frames\0160.png'
+@@ frame 160 5.6s
+15:23.109  render           | Saved: 'pipeline\out\frames\0161.png'
+@@ frame 161 5.8s
+15:28.656  render           | Saved: 'pipeline\out\frames\0162.png'
+@@ frame 162 5.5s
+15:34.375  render           | Saved: 'pipeline\out\frames\0163.png'
+@@ frame 163 5.7s
+15:40.344  render           | Saved: 'pipeline\out\frames\0164.png'
+@@ frame 164 6.0s
+15:45.797  render           | Saved: 'pipeline\out\frames\0165.png'
+@@ frame 165 5.5s
+15:51.469  render           | Saved: 'pipeline\out\frames\0166.png'
+@@ frame 166 5.7s
+15:57.500  render           | Saved: 'pipeline\out\frames\0167.png'
+@@ frame 167 6.0s
+16:03.390  render           | Saved: 'pipeline\out\frames\0168.png'
+@@ frame 168 5.9s
+16:09.344  render           | Saved: 'pipeline\out\frames\0169.png'
+@@ frame 169 5.9s
+16:14.922  render           | Saved: 'pipeline\out\frames\0170.png'
+@@ frame 170 5.6s
+16:20.953  render           | Saved: 'pipeline\out\frames\0171.png'
+@@ frame 171 6.0s
+16:26.812  render           | Saved: 'pipeline\out\frames\0172.png'
+@@ frame 172 5.9s
+16:32.453  render           | Saved: 'pipeline\out\frames\0173.png'
+@@ frame 173 5.6s
+16:38.094  render           | Saved: 'pipeline\out\frames\0174.png'
+@@ frame 174 5.7s
+16:43.562  render           | Saved: 'pipeline\out\frames\0175.png'
+@@ frame 175 5.5s
+16:48.953  render           | Saved: 'pipeline\out\frames\0176.png'
+@@ frame 176 5.4s
+16:54.469  render           | Saved: 'pipeline\out\frames\0177.png'
+@@ frame 177 5.5s
+16:59.969  render           | Saved: 'pipeline\out\frames\0178.png'
+@@ frame 178 5.5s
+17:05.672  render           | Saved: 'pipeline\out\frames\0179.png'
+@@ frame 179 5.7s
+17:11.234  render           | Saved: 'pipeline\out\frames\0180.png'
+@@ frame 180 5.6s
+17:16.734  render           | Saved: 'pipeline\out\frames\0181.png'
+@@ frame 181 5.5s
+17:22.187  render           | Saved: 'pipeline\out\frames\0182.png'
+@@ frame 182 5.5s
+17:27.625  render           | Saved: 'pipeline\out\frames\0183.png'
+@@ frame 183 5.4s
+17:33.031  render           | Saved: 'pipeline\out\frames\0184.png'
+@@ frame 184 5.4s
+17:38.515  render           | Saved: 'pipeline\out\frames\0185.png'
+@@ frame 185 5.5s
+17:44.047  render           | Saved: 'pipeline\out\frames\0186.png'
+@@ frame 186 5.5s
+17:49.890  render           | Saved: 'pipeline\out\frames\0187.png'
+@@ frame 187 5.8s
+17:55.437  render           | Saved: 'pipeline\out\frames\0188.png'
+@@ frame 188 5.6s
+18:00.922  render           | Saved: 'pipeline\out\frames\0189.png'
+@@ frame 189 5.5s
+18:06.281  render           | Saved: 'pipeline\out\frames\0190.png'
+@@ frame 190 5.4s
+18:11.687  render           | Saved: 'pipeline\out\frames\0191.png'
+@@ frame 191 5.4s
+18:17.031  render           | Saved: 'pipeline\out\frames\0192.png'
+@@ frame 192 5.3s
+18:22.390  render           | Saved: 'pipeline\out\frames\0193.png'
+@@ frame 193 5.4s
+18:27.812  render           | Saved: 'pipeline\out\frames\0194.png'
+@@ frame 194 5.4s
+18:33.265  render           | Saved: 'pipeline\out\frames\0195.png'
+@@ frame 195 5.5s
+18:39.672  render           | Saved: 'pipeline\out\frames\0196.png'
+@@ frame 196 6.4s
+18:46.109  render           | Saved: 'pipeline\out\frames\0197.png'
+@@ frame 197 6.4s
+18:52.500  render           | Saved: 'pipeline\out\frames\0198.png'
+@@ frame 198 6.4s
+18:58.500  render           | Saved: 'pipeline\out\frames\0199.png'
+@@ frame 199 6.0s
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:35:40)
+
+Blender quit

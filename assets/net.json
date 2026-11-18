@@ -1,0 +1,165 @@
+{
+ "inputCh": 20,
+ "texW": 2048,
+ "texH": 512,
+ "frames": 188,
+ "layers": [
+  {
+   "name": "c1",
+   "src": [
+    "input"
+   ],
+   "ch": 16,
+   "k": 3,
+   "s": 1,
+   "inCh": 20,
+   "outCh": 16,
+   "offset": 0,
+   "bytes": 11584,
+   "biasOffset": 11520
+  },
+  {
+   "name": "d1",
+   "src": [
+    "c1"
+   ],
+   "ch": 24,
+   "k": 3,
+   "s": 2,
+   "inCh": 16,
+   "outCh": 24,
+   "offset": 11584,
+   "bytes": 13920,
+   "biasOffset": 25408
+  },
+  {
+   "name": "c2",
+   "src": [
+    "d1"
+   ],
+   "ch": 24,
+   "k": 3,
+   "s": 1,
+   "inCh": 24,
+   "outCh": 24,
+   "offset": 25504,
+   "bytes": 20832,
+   "biasOffset": 46240
+  },
+  {
+   "name": "d2",
+   "src": [
+    "c2"
+   ],
+   "ch": 32,
+   "k": 3,
+   "s": 2,
+   "inCh": 24,
+   "outCh": 32,
+   "offset": 46336,
+   "bytes": 27776,
+   "biasOffset": 73984
+  },
+  {
+   "name": "c3",
+   "src": [
+    "d2"
+   ],
+   "ch": 32,
+   "k": 3,
+   "s": 1,
+   "inCh": 32,
+   "outCh": 32,
+   "offset": 74112,
+   "bytes": 36992,
+   "biasOffset": 110976
+  },
+  {
+   "name": "c4",
+   "src": [
+    "c3"
+   ],
+   "ch": 32,
+   "k": 3,
+   "s": 1,
+   "inCh": 32,
+   "outCh": 32,
+   "offset": 111104,
+   "bytes": 36992,
+   "biasOffset": 147968
+  },
+  {
+   "name": "c5",
+   "src": [
+    "^c4",
+    "c2"
+   ],
+   "ch": 24,
+   "k": 3,
+   "s": 1,
+   "inCh": 56,
+   "outCh": 24,
+   "offset": 148096,
+   "bytes": 48480,
+   "biasOffset": 196480
+  },
+  {
+   "name": "c6",
+   "src": [
+    "c5"
+   ],
+   "ch": 24,
+   "k": 3,
+   "s": 1,
+   "inCh": 24,
+   "outCh": 24,
+   "offset": 196576,
+   "bytes": 20832,
+   "biasOffset": 217312
+  },
+  {
+   "name": "c7",
+   "src": [
+    "^c6",
+    "c1"
+   ],
+   "ch": 16,
+   "k": 3,
+   "s": 1,
+   "inCh": 40,
+   "outCh": 16,
+   "offset": 217408,
+   "bytes": 23104,
+   "biasOffset": 240448
+  },
+  {
+   "name": "c8",
+   "src": [
+    "c7"
+   ],
+   "ch": 16,
+   "k": 1,
+   "s": 1,
+   "inCh": 16,
+   "outCh": 16,
+   "offset": 240512,
+   "bytes": 1088,
+   "biasOffset": 241536
+  },
+  {
+   "name": "out",
+   "src": [
+    "c8"
+   ],
+   "ch": 4,
+   "k": 1,
+   "s": 1,
+   "last": true,
+   "inCh": 16,
+   "outCh": 4,
+   "offset": 241600,
+   "bytes": 272,
+   "biasOffset": 241856
+  }
+ ]
+}

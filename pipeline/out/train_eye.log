@@ -1,0 +1,37 @@
+train 188 holdout 12
+targets loaded 188 15 s
+weights 60468
+site-packages/torch\optim\lr_scheduler.py:227: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+it 100 loss 2.7041 l1 0.0315 350 ms/it
+it 200 loss 1.7562 l1 0.0259 242 ms/it
+it 300 loss 1.5564 l1 0.0253 203 ms/it
+it 400 loss 1.3267 l1 0.0256 183 ms/it
+it 500 loss 1.2576 l1 0.0214 171 ms/it
+it 600 loss 1.1349 l1 0.0189 163 ms/it
+it 700 loss 1.1918 l1 0.0191 157 ms/it
+it 800 loss 1.1877 l1 0.0188 155 ms/it
+it 900 loss 0.9806 l1 0.0157 153 ms/it
+it 1000 loss 0.9448 l1 0.0179 151 ms/it
+it 1100 loss 0.9081 l1 0.0156 150 ms/it
+it 1200 loss 0.8448 l1 0.0140 149 ms/it
+it 1300 loss 1.0286 l1 0.0143 148 ms/it
+it 1400 loss 0.9034 l1 0.0176 147 ms/it
+it 1500 loss 1.0547 l1 0.0182 146 ms/it
+it 1600 loss 0.7173 l1 0.0179 146 ms/it
+it 1700 loss 0.7824 l1 0.0166 146 ms/it
+it 1800 loss 0.7106 l1 0.0170 146 ms/it
+it 1900 loss 0.6861 l1 0.0158 145 ms/it
+it 2000 loss 0.5503 l1 0.0171 144 ms/it
+it 2100 loss 0.6895 l1 0.0146 144 ms/it
+it 2200 loss 0.9308 l1 0.0158 155 ms/it
+it 2300 loss 0.6426 l1 0.0172 170 ms/it
+it 2400 loss 0.6889 l1 0.0169 169 ms/it
+it 2500 loss 0.6580 l1 0.0152 168 ms/it
+it 2600 loss 0.5138 l1 0.0155 168 ms/it
+it 2700 loss 0.6924 l1 0.0164 167 ms/it
+it 2800 loss 0.6577 l1 0.0149 168 ms/it
+it 2900 loss 0.6520 l1 0.0121 169 ms/it
+it 3000 loss 0.6103 l1 0.0126 169 ms/it
+== it 3000 holdout PSNR 28.17 dB
+done 515 s
